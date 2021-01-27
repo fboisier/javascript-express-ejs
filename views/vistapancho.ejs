@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= nombre%></title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <h1>Hello Express <%= nombre%> </h1>
+    <h1>Arreglo:  <%= arreglo%> </h1>
+
+    <ul>
+
+        <% for (const auto of arreglo) { %>
+
+            <li>  <%= auto%> </li>
+
+        <% } %>
+
+    </ul>
+
+    <a href="pancho.html"> IR AL PANCHO.HTML en la public.</a>
+  
+</body>
+</html>
